@@ -12,7 +12,6 @@
  .container {
     max-width: 1200px;
     width: 100%;
-    
     margin: 0 auto;
  }
 
@@ -373,3 +372,55 @@
     .footer__soc-link img {
       height: 25px;
     }
+
+    /* адаптив */
+
+    @media (max-width: 1000px) {
+      .SB{
+        flex-direction: column;
+        gap: 20px;
+      }
+      .intro_blocks  {
+        flex-direction: column;
+        gap: 20px;
+        width: 250px;
+        padding: 0 auto;
+        position: relative;
+      }
+      .header{
+        flex-direction: column;
+        gap: 20px;
+      }
+      .intro h1{
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      .about__inner {
+        flex-direction: column;
+        gap: 20px;
+      }
+      .process__blocks{
+        flex-direction: column;
+        gap: 20px;
+    }
+   .intro button{
+      padding: 5px 10px;
+    }
+    .footer__wrapper{
+      flex-direction: column;
+        gap: 20px;
+    }
+    .process h2{
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 20px;
+    }
+    .process_block{
+    line-height: 150%;
+    padding: 10px 10px 10px 10px;
+    width: 220px;
+    text-align: left;
+
+  }
+}
