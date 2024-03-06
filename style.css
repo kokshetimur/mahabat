@@ -421,14 +421,14 @@
     }
     .process_block{
     line-height: 150%;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
     width: 220px;
-    text-align: left;
+    text-align: center;
   }
   .container{
     padding: 0 20px;
   }
   .about__img{
-   display: none;
+   display: inline-block;
   }
 }
