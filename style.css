@@ -16,15 +16,24 @@
  }
 
  .header {
+    background-image: url(img/road-g9875459d1_1920\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 0 50px 0;
+    width: 100%;
+ }
+   .shapka{
     display: flex; 
     justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 15px; 
-    left: 6%; 
-    z-index: 2;  
- }
+    align-items: center; 
 
+   } 
+ .road{
+  
+  
+
+ }
  .header ul li {
  display: inline-block;
  list-style: none;
@@ -50,38 +59,32 @@
  }
 
 
- .intro { 
- background-image: url(img/road-g9875459d1_1920\ 1.jpg);  
- background-repeat:no-repeat ; 
- background-size: cover; 
- background-position: center;
- padding: 200px 0 200px 0;
- position: relative;
- }
+ 
 
  .intro h1 {
     font-weight: 700;
     font-size: 48px;
     color: azure;  
     width: 70%;
+    margin-top: 120px;
     margin-bottom: 53px;
  }
 
- .intro button {
+ #butt {
  background: rgba(233, 11, 11, 0.904);
  padding: 11px 48px;
  font-size: 18px;
  color: antiquewhite;
- margin-left:  100px;
- margin-top: 50px;
+ margin-left: 0 ;border-radius: 20px;
+
  }
 
  .intro_blocks {
     display: flex;
     gap: 21px;
-    position: absolute;
-    bottom: -10%;
-    left: 11%;
+    margin-top: 200px;
+    margin-bottom: -130px;
+    
  }
 
  .intro_block {
@@ -111,7 +114,7 @@
     left: 10%;
  }
  .services{
-    margin: 100px auto;
+    margin: 200px auto;
  }
 
  .services h2{
@@ -404,7 +407,7 @@
         flex-direction: column;
         gap: 20px;
     }
-   .intro button{
+      #butt{
       padding: 5px 10px;
     }
     .footer__wrapper{
@@ -421,6 +424,9 @@
     padding: 10px 10px 10px 10px;
     width: 220px;
     text-align: left;
-
   }
+  .container{
+    padding: 0 40px;
+  }
+  
 }
