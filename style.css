@@ -429,6 +429,6 @@
     padding: 0 20px;
   }
   .about__img{
-    width: 100%;
+   display: inline;
   }
 }
