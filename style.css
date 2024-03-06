@@ -399,7 +399,7 @@
         font-weight: 400;
         margin-bottom: 10px;
       }
-      .about__inner {
+      .about__info {
         flex-direction: column;
         gap: 20px;
       }
