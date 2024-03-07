@@ -390,7 +390,7 @@
         padding: 0 auto;
         position: relative;
       }
-      .header{
+      .shapka{
         flex-direction: column;
         gap: 20px;
       }
@@ -405,6 +405,7 @@
       }
       .process__blocks{
         flex-direction: column;
+        
         gap: 20px;
     }
       #butt{
@@ -428,7 +429,5 @@
   .container{
     padding: 0 20px;
   }
-  .about__img{
-   display: inline-block;
-  }
+  
 }
