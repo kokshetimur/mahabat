@@ -381,12 +381,14 @@
     @media (max-width: 1000px) {
       .SB{
         flex-direction: column;
-	justify-content: center;
+	      justify-content: center;
+        align-items: flex-end;
         gap: 20px;
       }
       .intro_blocks  {
         flex-direction: column;
 	      justify-content: center;
+        align-items: center;
         gap: 20px;
         width: 250px;
         padding: 0 auto;
