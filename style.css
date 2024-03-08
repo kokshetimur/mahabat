@@ -386,14 +386,11 @@
         align-items: center;
         gap: 20px;
       }
-      .header{
+      
+      .intro_blocks { 
         display: flex;
         justify-content: center;
-        align-items: center;
-      }
-      .intro_blocks  {
-        
-       
+        align-items: center;     
         gap: 20px;
         width: 250px;
         padding: 0 auto;
@@ -434,7 +431,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 60px;
     }
     .process_block{
     line-height: 150%;
