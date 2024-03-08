@@ -76,6 +76,7 @@
  font-size: 18px;
  color: antiquewhite;
  margin-left: 0 ;border-radius: 20px;
+ text-decoration: none;
 
  }
 
@@ -385,9 +386,13 @@
         align-items: center;
         gap: 20px;
       }
+      .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .intro_blocks  {
-        flex-direction: column;
-	      justify-content: center;
+        
        
         gap: 20px;
         width: 250px;
@@ -424,6 +429,12 @@
     font-weight: 800;
     font-size: 70px;
     margin-bottom: 20px;
+    }
+    .process__blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
     }
     .process_block{
     line-height: 150%;
