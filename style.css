@@ -382,13 +382,13 @@
       .SB{
         flex-direction: column;
 	      justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         gap: 20px;
       }
       .intro_blocks  {
         flex-direction: column;
 	      justify-content: center;
-        align-items: center;
+       
         gap: 20px;
         width: 250px;
         padding: 0 auto;
