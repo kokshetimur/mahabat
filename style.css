@@ -381,10 +381,12 @@
     @media (max-width: 1000px) {
       .SB{
         flex-direction: column;
+	justify-content: center;
         gap: 20px;
       }
       .intro_blocks  {
         flex-direction: column;
+	      justify-content: center;
         gap: 20px;
         width: 250px;
         padding: 0 auto;
@@ -401,11 +403,12 @@
       }
       .about__info {
         flex-direction: column;
+	      justify-content: center;
         gap: 20px;
       }
       .process__blocks{
         flex-direction: column;
-        
+        justify-content: center;
         gap: 20px;
     }
       #butt{
