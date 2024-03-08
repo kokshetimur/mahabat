@@ -82,6 +82,7 @@
 
  .intro_blocks {
     display: flex;
+    justify-content: center;
     gap: 21px;
     margin-top: 200px;
     margin-bottom: -130px;
@@ -115,6 +116,7 @@
     left: 10%;
  }
  .services{
+  
     margin: 200px auto;
  }
 
@@ -439,6 +441,8 @@
     text-align: center;
   }
   .container{
+    max-width: 700px;
+    width: 100%;
     padding: 0 20px;
   }
   
