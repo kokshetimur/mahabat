@@ -453,13 +453,18 @@
     width: 100%;
     padding: 0 20px;
   }
+  .intro_blocks{
+    margin-left: 100px;
+  }
   
 }
 @media (max-width: 500px){
 
-
+#butt{
+  margin-top: 30px;
+}
 .intro_block{
-  height: 200px;
+  
   padding-bottom: 15px;
 }
 .intro_block p {
@@ -486,4 +491,5 @@
 margin-top: 2px;
 padding-top: 5px;
 }
+
 }
