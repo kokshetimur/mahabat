@@ -95,6 +95,7 @@
     padding: 39px 48px 37px 39px;
     position: relative;
  }
+
  .intro_block p {
     font-weight: 700;
     font-size: 18px;
@@ -390,13 +391,20 @@
       }
       
       .intro_blocks { 
-        flex-direction: column; 
-        align-items: center;
+         
+        
         gap: 20px;
         width: 250px;
         padding: 0 auto;
         position: relative;
       }
+      .intro_block p {
+        font-weight: 700;
+        font-size: 14px;
+        margin: 21px 0 10px 0;
+        padding-top: 20px;
+    }
+    
       .shapka{
         flex-direction: column;
         gap: 20px;
@@ -446,4 +454,36 @@
     padding: 0 20px;
   }
   
+}
+@media (max-width: 500px){
+
+
+.intro_block{
+  height: 200px;
+  padding-bottom: 15px;
+}
+.intro_block p {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 5px 0 5px 0;
+}
+.intro_block span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #201d1d;
+}
+.intro_block::before{
+  content: "";
+  background-image: url(img/Vector.svg);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+#f{
+margin-top: 2px;
+padding-top: 5px;
+}
 }
