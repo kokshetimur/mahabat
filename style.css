@@ -409,33 +409,40 @@
         flex-direction: column;
         gap: 20px;
       }
+
       .intro h1{
         font-size: 24px;
         font-weight: 400;
         margin-bottom: 10px;
       }
+
       .about__info {
         flex-direction: column;
 	      justify-content: center;
         gap: 20px;
       }
-      .process__blocks{
+
+    .process__blocks{
         flex-direction: column;
         justify-content: center;
         gap: 20px;
     }
+    
       #butt{
       padding: 5px 10px;
     }
+
     .footer__wrapper{
       flex-direction: column;
         gap: 20px;
     }
+
     .process h2{
     font-weight: 800;
     font-size: 70px;
     margin-bottom: 20px;
     }
+
     .process__blocks{
       flex-direction: column;
       justify-content: center;
@@ -447,15 +454,17 @@
     padding: 10px 0px 10px 0px;
     width: 220px;
     text-align: center;
-  }
-  .container{
+     }
+   .container{
     max-width: 700px;
     width: 100%;
     padding: 0 20px;
-  }
-  .intro_blocks{
+    }
+   .intro_blocks{
     margin-left: 200px;
-  }
+    margin-top: 200px;
+    margin-bottom: -210px;
+   }
   
 }
 @media (max-width: 500px){
