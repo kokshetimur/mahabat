@@ -413,7 +413,7 @@
       .intro h1{
         font-size: 24px;
         font-weight: 400;
-        margin-bottom: 10px;
+        margin-bottom: 60px;
       }
 
       .about__info {
@@ -467,10 +467,12 @@
    }
   
 }
+
+
 @media (max-width: 500px){
 
 #butt{
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .intro_block{
   
