@@ -19,9 +19,11 @@
     background-image: url(img/road-g9875459d1_1920\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
     background-position: center;
+   
     padding: 0 0 50px 0;
-    width: 100%;
+    
  }
    .shapka{
     display: flex; 
@@ -535,6 +537,11 @@ padding-top: 5px;
 }
 .about{
   padding-top: 30px;
+}
+.nav ul li{
+margin-right: 15px;
+font-size: 12px;
+
 }
 
 }
