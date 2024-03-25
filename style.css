@@ -140,6 +140,8 @@
  }
  .SA {
    position: relative;
+   padding-left: 10px;
+   padding-right: 10px;
  }
  .pic { 
   max-width: 100%;
@@ -401,7 +403,8 @@
       }
       
       .intro_blocks { 
-         
+       
+        flex-direction: column;
         
         gap: 20px;
         width: 250px;
@@ -514,6 +517,12 @@
 #f{
 margin-top: 2px;
 padding-top: 5px;
+}
+.SA {
+  max-width: 100%;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 }
