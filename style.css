@@ -433,6 +433,9 @@
 	      justify-content: center;
         gap: 20px;
       }
+      .about__inner{
+        flex-direction: column;
+      }
 
     .process__blocks{
         flex-direction: column;
@@ -476,8 +479,8 @@
     }
 
    .intro_blocks{
-    margin-left: 60px;
-    margin-top: 50px;
+    margin-left: 40px;
+    margin-top: 100px;
     margin-bottom: -210px;
    }
   
@@ -519,9 +522,19 @@ padding-top: 5px;
 }
 .SA {
  max-width: 100%;
-    height: auto;
+  height: auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#ff{
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+.about{
+  padding-top: 30px;
 }
 
 }
