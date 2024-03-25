@@ -75,7 +75,8 @@
  padding: 11px 48px;
  font-size: 18px;
  color: antiquewhite;
- margin-left: 0 ;border-radius: 20px;
+ margin-left: 0 ;
+ border-radius: 20px;
  text-decoration: none;
 
  }
@@ -137,9 +138,14 @@
     gap: 20px;
     margin-top: 60px;
  }
- .SA{
+ .SA {
    position: relative;
  }
+ .pic { 
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  }
 
  
  .overlay {
@@ -155,6 +161,7 @@
  .SA:hover .overlay {
    display: block;
  }
+ 
  .SA:hover::before {
    content: url("./img/plus.png");
    width: 100px;
@@ -163,7 +170,8 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   z-index: 2;}
+   z-index: 2;
+  }
 
    .SA:hover::after {
       content: "ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH";
@@ -175,6 +183,8 @@
       z-index: 2;
       color: white;
     }
+
+
     .about {
       background-color: black;
     }
@@ -449,17 +459,20 @@
       align-items: center;
       margin-bottom: 60px;
     }
+    
     .process_block{
     line-height: 150%;
     padding: 10px 0px 10px 0px;
     width: 220px;
     text-align: center;
      }
+
    .container{
     max-width: 700px;
     width: 100%;
     padding: 0 20px;
     }
+
    .intro_blocks{
     margin-left: 200px;
     margin-top: 100px;
